@@ -310,6 +310,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				TargetAttributes = {
+					5E7837D5143E3A5700C061C7 = {
+						DevelopmentTeam = WGU739X43A;
+					};
+				};
 			};
 			buildConfigurationList = 5E7837D0143E3A5700C061C7 /* Build configuration list for PBXProject "Car Lot" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -528,10 +533,12 @@
 		5E783804143E3A5700C061C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Car Lot/Car Lot-Prefix.pch";
 				INFOPLIST_FILE = "Car Lot/Car Lot-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -539,10 +546,12 @@
 		5E783805143E3A5700C061C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Car Lot/Car Lot-Prefix.pch";
 				INFOPLIST_FILE = "Car Lot/Car Lot-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
